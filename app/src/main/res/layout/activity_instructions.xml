@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#836999"
+    tools:context=".InstructionsActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout_Ex1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#BCA3E2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText_Jone1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="J"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_Jone2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#9BF188"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="O"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_Jone3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="N"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_Jone4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="E"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_Jone5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="S"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout_HowTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#BCA3E2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText_How1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="H"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_How2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#9BF188"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="O"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_How3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#F6DC8F"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="W"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_How4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="T"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_Howw5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#9BF188"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="O"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout_Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#BCA3E2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout_HowTo">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText_Play1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#9BF188"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="P"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_Play2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="L"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_Play3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="A"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_Play4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#F6DC8F"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="Y"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout_Ex2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#BCA3E2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText_Jones1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="C"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_Jones2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="R"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_Jones3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="A"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_Jones4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#F6DC8F"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="N"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/editText_How5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#524D57"
+                android:ems="10"
+                android:fontFamily="@font/amaranth_bold"
+                android:inputType="text"
+                android:padding="0dp"
+                android:text="E"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Enter in a five letter guess, and the boxes will be colored to show if the letter is correct or in the word."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout_Play"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/amaranth"
+        android:text="The box will turn yellow if it's in the word, but not where you put it."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout_Ex1"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/amaranth"
+        android:text="The box will turn green if the letter is in the word and in the right spot."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
